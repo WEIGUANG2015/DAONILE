@@ -106,7 +106,7 @@ public class CrashHandler implements UncaughtExceptionHandler {
 		new Thread() {
 			public void run() {
 				Looper.prepare();
-				Toast.makeText(context, "非常抱歉,云阅读出现了异常,即将退出", Toast.LENGTH_SHORT).show();
+				Toast.makeText(context, "非常抱歉,到你了出现了异常,即将退出", Toast.LENGTH_SHORT).show();
 				Looper.loop();
 			}
 		}.start();
@@ -169,7 +169,7 @@ public class CrashHandler implements UncaughtExceptionHandler {
 		mStringBuffer.append(mResult);
 		// 保存文件，设置文件名
 		String mTime = mSimpleDateFormat.format(new Date());
-		String mFileName = "CloudMessageCrashLog-" + mTime + ".txt";
+		String mFileName = "DaoNiLeCrashLog-" + mTime + ".txt";
 		try {
 			File directory = new File(logPath);
 			if (!directory.exists())

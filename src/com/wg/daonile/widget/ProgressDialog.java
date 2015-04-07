@@ -7,7 +7,7 @@ import android.content.Context;
 import android.view.Gravity;
 
 /**
- * 类说明
+ * 进度条对话框
  * 
  * @author WEIGUANG
  * @date 2015年4月7日

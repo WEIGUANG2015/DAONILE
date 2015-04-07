@@ -17,7 +17,7 @@ import android.content.SharedPreferences.Editor;
  */
 public class AppSetting {
 
-	private final static String SHAREPREFERENCE_NAME = "CloudMessageAppSettings";
+	private final static String SHAREPREFERENCE_NAME = "DaoNiLeAppSettings";
 	private static AppSetting sAppSetting;
 	private static SharedPreferences sSharedPreferences;
 	private static Editor sEditor;

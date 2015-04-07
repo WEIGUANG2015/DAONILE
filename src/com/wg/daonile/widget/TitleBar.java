@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 /**
- * 类说明
+ * titlebar
  * 
  * @author WEIGUANG
  * @date 2015年4月1日

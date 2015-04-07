@@ -4,7 +4,7 @@ import com.wg.daonile.MainFragmentActivity;
 import com.wg.daonile.eventbus.event.EfinishSelf;
 
 /**
- * 类说明
+ * 注册presenter
  * 
  * @author WEIGUANG
  * @date 2015年4月1日

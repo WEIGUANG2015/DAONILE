@@ -33,7 +33,7 @@ public abstract class BaseActivity extends Activity {
 	public void onTrimMemory(int level) {
 		super.onTrimMemory(level);
 		switch (level) {
-		case TRIM_MEMORY_UI_HIDDEN: // UI全部不可见时，是否UI资源
+		case TRIM_MEMORY_UI_HIDDEN: // UI全部不可见时，释放UI资源
 			releaseUIResource(); 
 			break;
 
