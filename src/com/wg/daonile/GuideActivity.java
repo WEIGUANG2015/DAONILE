@@ -1,14 +1,12 @@
 package com.wg.daonile;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.SparseArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -48,7 +46,7 @@ public class GuideActivity extends BaseActivity implements IGuideView, View.OnCl
 
 	private ViewPager mViewPager;
 	private GuidePagerAdapter mAdapter;
-	private List<View> mGuideViews;
+	private SparseArray<View> mGuideViews;
 	private Button mLoginButton;
 	private Button mRegisterButton;
 
@@ -59,7 +57,7 @@ public class GuideActivity extends BaseActivity implements IGuideView, View.OnCl
 	@Override
 	public void initWidgets() {
 		mViewPager = (ViewPager) findViewById(R.id.vp_guide);
-		mGuideViews = new ArrayList<>();
+		mGuideViews = new SparseArray<>();
 		for (int i = 0; i < mGuideViewCount; i++) {
 			View itemView = LayoutInflater.from(mContext).inflate(R.layout.item_guide, null);
 			ImageView imageView = (ImageView) itemView.findViewById(R.id.iv_guide);
@@ -85,7 +83,7 @@ public class GuideActivity extends BaseActivity implements IGuideView, View.OnCl
 			default:
 				break;
 			}
-			mGuideViews.add(itemView);
+			mGuideViews.append(i, itemView);
 		}
 
 		mAdapter = new GuidePagerAdapter();
