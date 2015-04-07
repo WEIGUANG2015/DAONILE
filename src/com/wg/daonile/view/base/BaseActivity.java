@@ -24,9 +24,22 @@ public abstract class BaseActivity extends Activity {
 	}
 
 	@Override
-	protected void onDestroy() {
+	protected void onStop() {
 		// TODO Auto-generated method stub
-		super.onDestroy();
+		super.onStop();
+	}
+	
+	@Override
+	public void onTrimMemory(int level) {
+		super.onTrimMemory(level);
+		switch (level) {
+		case TRIM_MEMORY_UI_HIDDEN: // UI全部不可见时，是否UI资源
+			releaseUIResource(); 
+			break;
+
+		default:
+			break;
+		}
 	}
 
 	/**
@@ -75,4 +88,9 @@ public abstract class BaseActivity extends Activity {
 	 * 初始化界面控件
 	 */
 	public abstract void initWidgets();
+	
+	/**
+	 * 释放UI资源
+	 */
+	public abstract void releaseUIResource();
 }

@@ -105,4 +105,10 @@ public class LoginActivity extends BaseActivity implements ILoginView, OnClickLi
 		mEventBus.post(efinishSelf); 
 	}
 
+	@Override
+	public void releaseUIResource() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

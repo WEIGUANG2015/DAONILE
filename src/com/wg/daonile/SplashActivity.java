@@ -86,17 +86,17 @@ public class SplashActivity extends BaseActivity implements ISplashView {
 	}
 
 	@Override
-	public void showProgressDialog() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
 	public void goToActivity(Class<?> cls) {
 		if (cls != null) {
 			Intent intent = new Intent(mContext, cls);
 			startActivity(intent);
 		}
+	}
+
+	@Override
+	public void releaseUIResource() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

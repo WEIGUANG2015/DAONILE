@@ -169,4 +169,10 @@ public class GuideActivity extends BaseActivity implements IGuideView, View.OnCl
 		}
 	}
 
+	@Override
+	public void releaseUIResource() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

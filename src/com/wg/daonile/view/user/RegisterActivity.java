@@ -105,4 +105,10 @@ public class RegisterActivity extends BaseActivity implements IRegisterView, OnC
 		mEventBus.post(efinishSelf); 
 	}
 
+	@Override
+	public void releaseUIResource() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
