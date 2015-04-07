@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 蓝色 -->
+    <color name="d16b8eb">#16B8EB</color>
+    <!-- 进度条蓝色 -->
+    <color name="d5588ff">#5588FF</color>
+    <!-- 分割线的颜色 -->
+    <color name="de5e5e5">#E5E5E5</color>
+    <!-- 深蓝色 -->
+    <color name="d3976E2">#3976E2</color>
+    <!-- 灰色背景 -->
+    <color name="defeff4">#EFEFF4</color>
+    <!-- 绿色背景 -->
+    <color name="d7ac142">#7AC142</color>
+    <!-- 提示文字颜色 -->
+    <color name="dd0d0d0">#D0D0D0</color>
+
+</resources>

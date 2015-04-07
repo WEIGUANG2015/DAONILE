@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="iv_splash" type="id"/>
+    <item name="vp_guide" type="id"/>
+    <item name="divider" type="id"/>
+    <item name="bt_login" type="id"/>
+    <item name="bt_register" type="id"/>
+    <item name="vs_login_register" type="id"/>
+    <item name="iv_guide" type="id"/>
+    <item name="tv_title_bar_left" type="id"/>
+    <item name="tv_title_bar_center" type="id"/>
+    <item name="tv_title_bar_right" type="id"/>
+    <item name="tb_register" type="id"/>
+    <item name="tb_login" type="id"/>
+    <item name="et_user_key" type="id"/>
+    <item name="et_user_password" type="id"/>
+    <item name="progressBar" type="id"/>
+    <item name="tv_loading" type="id"/>
+    <item name="progress_dialog_contentview" type="id"/>
+
+</resources>

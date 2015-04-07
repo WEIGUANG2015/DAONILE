@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dt="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/d3976E2" >
+
+    <com.wg.daonile.widget.DrawableTextView
+        android:id="@id/tv_title_bar_left"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical|start"
+        android:paddingEnd="10dp"
+        android:paddingStart="5dp"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        dt:drawableHeight="35dp"
+        dt:drawableWidth="35dp" />
+
+    <com.wg.daonile.widget.DrawableTextView
+        android:id="@id/tv_title_bar_center"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <com.wg.daonile.widget.DrawableTextView
+        android:id="@id/tv_title_bar_right"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical|end"
+        android:paddingEnd="10dp"
+        android:paddingStart="5dp"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        dt:drawableHeight="35dp"
+        dt:drawableWidth="35dp" />
+
+</LinearLayout>

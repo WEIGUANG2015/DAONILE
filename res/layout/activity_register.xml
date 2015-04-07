@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout_Match_Match_Vertical" >
+
+    <com.wg.daonile.widget.TitleBar
+        android:id="@id/tb_register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/d3976E2" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="35dp" />
+
+    <include layout="@layout/divider_line_e5e5e5" />
+
+    <EditText
+        android:id="@id/et_user_key"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/white"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/user_key"
+        android:hint="@string/hint_register_key"
+        android:labelFor="@id/et_user_key"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:singleLine="true"
+        android:textColorHint="@color/dd0d0d0"
+        android:textSize="16sp" />
+
+    <include layout="@layout/divider_line_e5e5e5" />
+
+    <EditText
+        android:id="@id/et_user_password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/white"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/user_password"
+        android:hint="@string/hint_register_password"
+        android:inputType="textPassword"
+        android:labelFor="@id/et_user_password"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:singleLine="true"
+        android:textColorHint="@color/dd0d0d0"
+        android:textSize="16sp" />
+
+    <include layout="@layout/divider_line_e5e5e5" />
+
+    <Button
+        android:id="@id/bt_register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/d7ac142"
+        android:gravity="center"
+        android:text="@string/user_register"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppLightTheme" parent="AppBaseTheme">
+        <item name="android:windowAnimationStyle">@style/ActivitySwitchAnimation</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Activity switch animation -->
+    <style name="ActivitySwitchAnimation" parent="android:Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <!-- base dialog -->
+    <style name="BaseDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+    <!-- custom dialog -->
+    <style name="ProgressDialog" parent="@style/BaseDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- XML layout theme. -->
+    <style name="Layout_Match_Match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Layout_Match_Match_Vertical" parent="Layout_Match_Match">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Layout_Match_Match_Horizontal" parent="Layout_Match_Match">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Layout_Match_Wrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Layout_Match_Wrap_Vertical" parent="Layout_Match_Wrap">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Layout_Match_Wrap_Horizontal" parent="Layout_Match_Wrap">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Layout_Wrap_Match">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Layout_Wrap_Match_Vertical" parent="Layout_Wrap_Match">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Layout_Wrap_Match_Horizontal" parent="Layout_Wrap_Match">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Layout_Wrap_Wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Layout_Wrap_Wrap_Vertical" parent="Layout_Wrap_Wrap">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Layout_Wrap_Wrap_Horizontal" parent="Layout_Wrap_Wrap">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+</resources>
