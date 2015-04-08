@@ -1,7 +1,7 @@
 package com.wg.daonile;
 
 /**
- * 类说明
+ * 启动页presenter
  * 
  * @author ke.wei.quan
  * @date 2015年4月1日

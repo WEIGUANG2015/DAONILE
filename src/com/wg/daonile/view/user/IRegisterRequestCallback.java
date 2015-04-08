@@ -1,7 +1,7 @@
 package com.wg.daonile.view.user;
 
 /**
- * 类说明
+ * 用户注册回调接口
  * 
  * @author WEIGUANG
  * @date 2015年4月1日

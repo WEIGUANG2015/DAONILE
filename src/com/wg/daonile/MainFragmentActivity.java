@@ -5,7 +5,7 @@ import android.os.Bundle;
 import com.wg.daonile.view.base.BaseFragmentActivity;
 
 /**
- * 类说明
+ * 主activity
  * 
  * @author WEIGUANG
  * @date 2015年3月31日
