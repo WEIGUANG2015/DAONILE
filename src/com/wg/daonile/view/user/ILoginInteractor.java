@@ -9,7 +9,7 @@ package com.wg.daonile.view.user;
  * @version 1.0
  *
  */
-public interface ILoginInterator {
+public interface ILoginInteractor {
 	// 请求服务器进行用户登录
 	void onUserLoginListener(String userKey, String password, ILoginRequestCallback callback);
 }

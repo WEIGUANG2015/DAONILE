@@ -11,7 +11,7 @@ import android.text.TextUtils;
  * @version 1.0
  *
  */
-public class RegisterInteractor implements IRegisterInterator {
+public class RegisterInteractor implements IRegisterInteractor {
 
 	@Override
 	public void onUserRegisterListener(final String userKey, final String password, final IRegisterRequestCallback callback) {

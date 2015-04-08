@@ -11,7 +11,7 @@ import android.text.TextUtils;
  * @version 1.0
  *
  */
-public class LoginInteractor implements ILoginInterator {
+public class LoginInteractor implements ILoginInteractor {
 
 	@Override
 	public void onUserLoginListener(final String userKey, final String password, final ILoginRequestCallback callback) {

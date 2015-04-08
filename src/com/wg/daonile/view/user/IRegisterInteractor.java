@@ -9,7 +9,7 @@ package com.wg.daonile.view.user;
  * @version 1.0
  *
  */
-public interface IRegisterInterator {
+public interface IRegisterInteractor {
 	// 请求服务器进行用户注册
 	void onUserRegisterListener(String userKey, String password, IRegisterRequestCallback callback);
 }
