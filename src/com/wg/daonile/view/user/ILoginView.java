@@ -1,7 +1,7 @@
 package com.wg.daonile.view.user;
 
+import com.wg.daonile.base.IBaseListener;
 import com.wg.daonile.eventbus.event.EfinishSelf;
-import com.wg.daonile.view.base.IBaseListener;
 
 /**
  * 用户登录界面接口

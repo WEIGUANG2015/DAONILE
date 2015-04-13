@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/Layout_Match_Match_Vertical" >
 
-    <com.wg.daonile.widget.TitleBar
+    <com.wg.daonile.app.widget.TitleBar
         android:id="@id/tb_login"
         android:layout_width="match_parent"
         android:layout_height="50dp"
