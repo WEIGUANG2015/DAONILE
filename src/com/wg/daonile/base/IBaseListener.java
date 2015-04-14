@@ -3,7 +3,7 @@ package com.wg.daonile.base;
 /**
  * 接口的基类
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年4月7日
  *
  */

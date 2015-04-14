@@ -10,7 +10,7 @@ import android.widget.Toast;
 /**
  * 所有的FragmentActivity的基类
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年3月31日
  *
  */
