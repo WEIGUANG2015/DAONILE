@@ -23,10 +23,8 @@ import android.widget.Toast;
 /**
  * 捕获全局异常，写入本地日志文件
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年3月31日
- * @lastModifyDate
- * @version 1.0
  *
  */
 public class CrashHandler implements UncaughtExceptionHandler {

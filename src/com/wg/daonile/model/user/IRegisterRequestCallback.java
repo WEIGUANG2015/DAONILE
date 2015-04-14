@@ -3,10 +3,8 @@ package com.wg.daonile.model.user;
 /**
  * 用户注册回调接口
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年4月1日
- * @lastModifyDate
- * @version 1.0
  *
  */
 public interface IRegisterRequestCallback {

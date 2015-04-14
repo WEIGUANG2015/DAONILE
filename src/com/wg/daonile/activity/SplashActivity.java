@@ -10,17 +10,15 @@ import android.widget.ImageView;
 
 import com.wg.daonile.R;
 import com.wg.daonile.base.BaseActivity;
-import com.wg.daonile.presenter.guide.ISplashPresenter;
-import com.wg.daonile.presenter.guide.impl.SplashPresenter;
-import com.wg.daonile.view.guide.ISplashView;
+import com.wg.daonile.presenter.splash.ISplashPresenter;
+import com.wg.daonile.presenter.splash.impl.SplashPresenter;
+import com.wg.daonile.view.splash.ISplashView;
 
 /**
  * app启动页
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年3月31日
- * @lastModifyDate
- * @version 1.0
  *
  */
 public class SplashActivity extends BaseActivity implements ISplashView {
@@ -30,7 +28,7 @@ public class SplashActivity extends BaseActivity implements ISplashView {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_splash);
 		mContext = this;
 		mISplashPresenter = new SplashPresenter(this);
 		super.onCreate(savedInstanceState);

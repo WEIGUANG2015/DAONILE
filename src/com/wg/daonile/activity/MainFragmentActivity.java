@@ -7,10 +7,8 @@ import com.wg.daonile.base.BaseFragmentActivity;
 /**
  * 主activity
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年3月31日
- * @lastModifyDate
- * @version 1.0
  *
  */
 public class MainFragmentActivity extends BaseFragmentActivity {

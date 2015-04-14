@@ -1,12 +1,10 @@
-package com.wg.daonile.presenter.guide;
+package com.wg.daonile.presenter.splash;
 
 /**
  * 引导页presenter接口
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年4月1日
- * @lastModifyDate 
- * @version 1.0
  *
  */
 public interface IGuidePresenter {

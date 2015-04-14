@@ -2,7 +2,6 @@ package com.wg.daonile.app;
 
 import java.io.File;
 
-import com.wg.daonile.grim.constant.AppConstant;
 import com.wg.daonile.grim.utils.ConfigFile;
 import com.wg.daonile.grim.utils.CrashHandler;
 
@@ -12,10 +11,8 @@ import android.os.Environment;
 /**
  * application
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年3月31日
- * @lastModifyDate
- * @version 1.0
  *
  */
 public class DaoNiLeApp extends Application {

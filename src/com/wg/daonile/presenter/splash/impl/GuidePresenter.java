@@ -1,17 +1,15 @@
-package com.wg.daonile.presenter.guide.impl;
+package com.wg.daonile.presenter.splash.impl;
 
 import com.wg.daonile.activity.LoginActivity;
 import com.wg.daonile.activity.RegisterActivity;
-import com.wg.daonile.presenter.guide.IGuidePresenter;
-import com.wg.daonile.view.guide.IGuideView;
+import com.wg.daonile.presenter.splash.IGuidePresenter;
+import com.wg.daonile.view.splash.IGuideView;
 
 /**
  * 引导页presenter
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年4月1日
- * @lastModifyDate 
- * @version 1.0
  *
  */
 public class GuidePresenter implements IGuidePresenter {

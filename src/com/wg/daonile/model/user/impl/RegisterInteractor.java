@@ -8,10 +8,8 @@ import com.wg.daonile.model.user.IRegisterRequestCallback;
 /**
  * 网站跟app注册的交互类
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年4月1日
- * @lastModifyDate
- * @version 1.0
  *
  */
 public class RegisterInteractor implements IRegisterInteractor {

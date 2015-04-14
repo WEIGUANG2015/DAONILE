@@ -6,10 +6,8 @@ import com.wg.daonile.eventbus.event.EfinishSelf;
 /**
  * 用户登录界面接口
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年3月31日
- * @lastModifyDate
- * @version 1.0
  *
  */
 public interface ILoginView extends IBaseListener {

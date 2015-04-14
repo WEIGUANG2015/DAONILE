@@ -17,19 +17,17 @@ import android.widget.ImageView;
 import com.wg.daonile.R;
 import com.wg.daonile.base.BaseActivity;
 import com.wg.daonile.eventbus.event.EfinishSelf;
-import com.wg.daonile.presenter.guide.IGuidePresenter;
-import com.wg.daonile.presenter.guide.impl.GuidePresenter;
-import com.wg.daonile.view.guide.IGuideView;
+import com.wg.daonile.presenter.splash.IGuidePresenter;
+import com.wg.daonile.presenter.splash.impl.GuidePresenter;
+import com.wg.daonile.view.splash.IGuideView;
 
 import de.greenrobot.event.EventBus;
 
 /**
  * app引导界面
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年3月31日
- * @lastModifyDate
- * @version 1.0
  *
  */
 public class GuideActivity extends BaseActivity implements IGuideView, View.OnClickListener {
