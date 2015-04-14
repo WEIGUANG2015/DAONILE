@@ -5,10 +5,8 @@ import com.wg.daonile.app.DaoNiLeApp;
 /**
  * App相关的一些常量
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年3月31日
- * @lastModifyDate 
- * @version 1.0
  *
  */
 public class AppConstant {

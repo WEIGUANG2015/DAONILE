@@ -11,10 +11,8 @@ import com.wg.daonile.R;
 /**
  * 自定义TextView，可控制Drawable大小 
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年4月1日
- * @lastModifyDate
- * @version 1.0
  *
  */
 public class DrawableTextView extends TextView {

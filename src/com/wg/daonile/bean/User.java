@@ -3,10 +3,8 @@ package com.wg.daonile.bean;
 /**
  * 用户实体
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年4月1日
- * @lastModifyDate
- * @version 1.0
  *
  */
 public class User {

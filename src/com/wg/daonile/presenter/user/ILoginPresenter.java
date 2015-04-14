@@ -3,10 +3,8 @@ package com.wg.daonile.presenter.user;
 /**
  * 用户登录Presenter接口
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年4月1日
- * @lastModifyDate
- * @version 1.0
  *
  */
 public interface ILoginPresenter {

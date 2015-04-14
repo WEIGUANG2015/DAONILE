@@ -9,8 +9,6 @@ import com.wg.daonile.view.guide.ISplashView;
  * 
  * @author ke.wei.quan
  * @date 2015年4月1日
- * @lastModifyDate 
- * @version 1.0
  *
  */
 public class SplashPresenter implements ISplashPresenter {

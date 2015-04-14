@@ -8,10 +8,8 @@ import com.wg.daonile.model.user.ILoginRequestCallback;
 /**
  * 网站跟app登录的交互类
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年4月1日
- * @lastModifyDate
- * @version 1.0
  *
  */
 public class LoginInteractor implements ILoginInteractor {

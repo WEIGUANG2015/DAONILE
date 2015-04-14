@@ -10,10 +10,8 @@ import com.wg.daonile.view.user.ILoginView;
 /**
  * 登录presenter
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年4月1日
- * @lastModifyDate
- * @version 1.0
  *
  */
 public class LoginPresenter implements ILoginPresenter, ILoginRequestCallback {

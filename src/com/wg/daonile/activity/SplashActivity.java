@@ -17,10 +17,8 @@ import com.wg.daonile.view.guide.ISplashView;
 /**
  * app启动页
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年3月31日
- * @lastModifyDate
- * @version 1.0
  *
  */
 public class SplashActivity extends BaseActivity implements ISplashView {

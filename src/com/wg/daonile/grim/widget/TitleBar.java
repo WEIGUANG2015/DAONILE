@@ -2,7 +2,7 @@ package com.wg.daonile.grim.widget;
 
 import com.wg.daonile.R;
 import com.wg.daonile.grim.constant.AppConstant;
-
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
@@ -12,10 +12,8 @@ import android.widget.LinearLayout;
 /**
  * titlebar
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年4月1日
- * @lastModifyDate
- * @version 1.0
  *
  */
 public class TitleBar extends LinearLayout implements View.OnClickListener {
@@ -24,6 +22,7 @@ public class TitleBar extends LinearLayout implements View.OnClickListener {
 		this(context, null);
 	}
 
+	@SuppressLint("InflateParams")
 	public TitleBar(Context context, AttributeSet attrs) {
 		super(context, attrs);
 		View child = LayoutInflater.from(context).inflate(R.layout.widget_title_bar, null);

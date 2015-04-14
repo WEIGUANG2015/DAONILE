@@ -7,10 +7,8 @@ import android.support.v4.app.Fragment;
 /**
  * 所有的Fragment的基类
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年3月31日
- * @lastModifyDate 
- * @version 1.0
  *
  */
 public abstract class BaseFragment extends Fragment {

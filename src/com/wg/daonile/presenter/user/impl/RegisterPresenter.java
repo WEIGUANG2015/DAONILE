@@ -10,10 +10,8 @@ import com.wg.daonile.view.user.IRegisterView;
 /**
  * 注册presenter
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年4月1日
- * @lastModifyDate
- * @version 1.0
  *
  */
 public class RegisterPresenter implements IRegisterPresenter, IRegisterRequestCallback {

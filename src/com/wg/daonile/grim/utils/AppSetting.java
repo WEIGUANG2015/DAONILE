@@ -9,10 +9,8 @@ import com.wg.daonile.app.DaoNiLeApp;
 /**
  * 一些app的偏好设置，保存到SharedPreferences，单例模式
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年3月31日
- * @lastModifyDate
- * @version 1.0
  * 
  */
 public class AppSetting {

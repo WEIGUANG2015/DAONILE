@@ -22,10 +22,8 @@ import de.greenrobot.event.EventBus;
 /**
  * 用户注册界面
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年3月31日
- * @lastModifyDate
- * @version 1.0
  *
  */
 public class RegisterActivity extends BaseActivity implements IRegisterView, OnClickListener, TitleBarClickListener {

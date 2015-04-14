@@ -5,8 +5,6 @@ package com.wg.daonile.base;
  * 
  * @author WEIGUANG
  * @date 2015年4月7日
- * @lastModifyDate 
- * @version 1.0
  *
  */
 public interface IBaseListener {

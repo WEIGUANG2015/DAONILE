@@ -18,10 +18,8 @@ import com.google.gson.JsonSyntaxException;
 /**
  * 解析json的工具类
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年3月31日
- * @lastModifyDate
- * @version 1.0
  *
  */
 public class JsonTools {

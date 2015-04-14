@@ -9,10 +9,8 @@ import android.view.Gravity;
 /**
  * 进度条对话框
  * 
- * @author WEIGUANG
+ * @author ke.wei.quan
  * @date 2015年4月7日
- * @lastModifyDate
- * @version 1.0
  *
  */
 public class ProgressDialog extends Dialog {

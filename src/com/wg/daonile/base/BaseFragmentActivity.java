@@ -1,18 +1,17 @@
 package com.wg.daonile.base;
 
-import com.wg.daonile.grim.utils.ToastUtil;
+import com.wg.daonile.app.DaoNiLeApp;
 import com.wg.daonile.grim.widget.ProgressDialog;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.widget.Toast;
 
 /**
  * 所有的FragmentActivity的基类
  * 
  * @author WEIGUANG
  * @date 2015年3月31日
- * @lastModifyDate
- * @version 1.0
  *
  */
 public abstract class BaseFragmentActivity extends FragmentActivity {
@@ -48,7 +47,7 @@ public abstract class BaseFragmentActivity extends FragmentActivity {
 	 * @param tips
 	 */
 	public void showToast(String tips) {
-		ToastUtil.show(tips);
+		Toast.makeText(DaoNiLeApp.getAppInstance(), tips, Toast.LENGTH_SHORT).show();
 	}
 
 	/**
@@ -57,7 +56,7 @@ public abstract class BaseFragmentActivity extends FragmentActivity {
 	 * @param tips
 	 */
 	public void showToast(CharSequence tips) {
-		ToastUtil.show(tips);
+		Toast.makeText(DaoNiLeApp.getAppInstance(), tips, Toast.LENGTH_SHORT).show();
 	}
 
 	/**
@@ -66,7 +65,7 @@ public abstract class BaseFragmentActivity extends FragmentActivity {
 	 * @param tips
 	 */
 	public void showToast(int tips) {
-		ToastUtil.show(tips);
+		Toast.makeText(DaoNiLeApp.getAppInstance(), tips, Toast.LENGTH_SHORT).show();
 	}
 
 	private ProgressDialog mProgressDialog;
