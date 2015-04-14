@@ -7,6 +7,14 @@ import com.wg.daonile.app.DaoNiLeApp;
 
 import android.content.res.AssetManager;
 
+/**
+ * 
+ * 通用配置获取工具类
+ * 
+ * @author JUNLONG CHAN
+ * @date 2015年4月14日
+ * 
+ */
 public class ConfigFile {
 	private static Properties prop = null;
 	static {
