@@ -3,6 +3,7 @@ package com.wg.daonile.app;
 import java.io.File;
 
 import com.wg.daonile.grim.constant.AppConstant;
+import com.wg.daonile.grim.utils.ConfigFile;
 import com.wg.daonile.grim.utils.CrashHandler;
 
 import android.app.Application;
@@ -137,7 +138,7 @@ public class DaoNiLeApp extends Application {
 	 * 初始化全局捕获异常
 	 */
 	private void initCrashHandler() {
-		if (AppConstant.IS_CRASHHANDLER_OPEN) {
+		if (ConfigFile.isCrashhandlerOpen()) {
 			CrashHandler crashHandler = CrashHandler.getInstance();
 			crashHandler.init(sAppInstance, logPath);
 		}

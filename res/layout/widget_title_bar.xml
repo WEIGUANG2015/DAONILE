@@ -5,7 +5,7 @@
     android:layout_height="50dp"
     android:background="@color/d3976E2" >
 
-    <com.wg.daonile.app.widget.DrawableTextView
+    <com.wg.daonile.grim.widget.DrawableTextView
         android:id="@id/tv_title_bar_left"
         android:layout_width="0dp"
         android:layout_height="match_parent"
@@ -20,7 +20,7 @@
         dt:drawableHeight="35dp"
         dt:drawableWidth="35dp" />
 
-    <com.wg.daonile.app.widget.DrawableTextView
+    <com.wg.daonile.grim.widget.DrawableTextView
         android:id="@id/tv_title_bar_center"
         android:layout_width="0dp"
         android:layout_height="match_parent"
@@ -33,7 +33,7 @@
         android:textColor="@android:color/white"
         android:textSize="20sp" />
 
-    <com.wg.daonile.app.widget.DrawableTextView
+    <com.wg.daonile.grim.widget.DrawableTextView
         android:id="@id/tv_title_bar_right"
         android:layout_width="0dp"
         android:layout_height="match_parent"
