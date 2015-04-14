@@ -111,5 +111,13 @@ public class LoginActivity extends BaseActivity implements ILoginView, OnClickLi
 		// TODO Auto-generated method stub
 		
 	}
+	
+	@Override
+	protected void onDestroy() {
+		if (mEventBus != null) {
+			mEventBus.unregister(this); 
+		}
+		super.onDestroy();
+	}
 
 }

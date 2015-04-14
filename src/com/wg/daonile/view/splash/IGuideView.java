@@ -1,4 +1,4 @@
-package com.wg.daonile.view.guide;
+package com.wg.daonile.view.splash;
 
 import com.wg.daonile.base.IBaseListener;
 

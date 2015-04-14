@@ -1,8 +1,8 @@
-package com.wg.daonile.presenter.guide.impl;
+package com.wg.daonile.presenter.splash.impl;
 
 import com.wg.daonile.activity.GuideActivity;
-import com.wg.daonile.presenter.guide.ISplashPresenter;
-import com.wg.daonile.view.guide.ISplashView;
+import com.wg.daonile.presenter.splash.ISplashPresenter;
+import com.wg.daonile.view.splash.ISplashView;
 
 /**
  * 启动页presenter

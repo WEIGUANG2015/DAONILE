@@ -1,4 +1,4 @@
-package com.wg.daonile.presenter.guide;
+package com.wg.daonile.presenter.splash;
 
 /**
  * 引导页presenter接口
