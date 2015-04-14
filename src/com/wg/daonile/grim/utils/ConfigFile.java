@@ -22,6 +22,7 @@ public class ConfigFile {
 
 	/**
 	 * 是否打印日志
+	 * 
 	 * @return
 	 */
 	public static boolean isDebug() {
@@ -30,6 +31,7 @@ public class ConfigFile {
 
 	/**
 	 * 是否打开全局异常收集器
+	 * 
 	 * @return
 	 */
 	public static boolean isCrashhandlerOpen() {
