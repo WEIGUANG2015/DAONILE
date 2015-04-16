@@ -14,31 +14,31 @@ import android.util.Log;
 public class LogUtil {
 
 	public static void v(String logString) {
-		if (ConfigFile.isDebug()) {
+		if (ConfigFile.isOpenVerbose()) {
 			Log.v(AppConstant.LOG_TAG, logString);
 		}
 	}
 
 	public static void d(String logString) {
-		if (ConfigFile.isDebug()) {
+		if (ConfigFile.isOpenDebug()) {
 			Log.d(AppConstant.LOG_TAG, logString);
 		}
 	}
 
 	public static void i(String logString) {
-		if (ConfigFile.isDebug()) {
+		if (ConfigFile.isOpenInfo()) {
 			Log.i(AppConstant.LOG_TAG, logString);
 		}
 	}
 
 	public static void w(String logString) {
-		if (ConfigFile.isDebug()) {
+		if (ConfigFile.isOpenWarn()) {
 			Log.w(AppConstant.LOG_TAG, logString);
 		}
 	}
 
 	public static void e(String logString) {
-		if (ConfigFile.isDebug()) {
+		if (ConfigFile.isOpenError()) {
 			Log.e(AppConstant.LOG_TAG, logString);
 		}
 	}

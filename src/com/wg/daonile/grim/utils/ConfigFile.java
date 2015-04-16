@@ -29,12 +29,48 @@ public class ConfigFile {
 	}
 
 	/**
-	 * 是否打印日志
+	 * 是否打印Debug日志
 	 * 
 	 * @return
 	 */
-	public static boolean isDebug() {
+	public static boolean isOpenDebug() {
 		return Boolean.valueOf(prop.get("is_debug").toString()).booleanValue();
+	}
+
+	/**
+	 * 是否打印Verbose日志
+	 * 
+	 * @return
+	 */
+	public static boolean isOpenVerbose() {
+		return Boolean.valueOf(prop.get("is_verbose").toString()).booleanValue();
+	}
+
+	/**
+	 * 是否打印Info日志
+	 * 
+	 * @return
+	 */
+	public static boolean isOpenInfo() {
+		return Boolean.valueOf(prop.get("is_info").toString()).booleanValue();
+	}
+
+	/**
+	 * 是否打印Warn日志
+	 * 
+	 * @return
+	 */
+	public static boolean isOpenWarn() {
+		return Boolean.valueOf(prop.get("is_warn").toString()).booleanValue();
+	}
+
+	/**
+	 * 是否打印Error日志
+	 * 
+	 * @return
+	 */
+	public static boolean isOpenError() {
+		return Boolean.valueOf(prop.get("is_error").toString()).booleanValue();
 	}
 
 	/**

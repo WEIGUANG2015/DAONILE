@@ -2,6 +2,7 @@ package com.wg.daonile.presenter.user.impl;
 
 import com.wg.daonile.activity.MainFragmentActivity;
 import com.wg.daonile.eventbus.event.EfinishSelf;
+import com.wg.daonile.model.user.ILoginInteractor;
 import com.wg.daonile.model.user.ILoginRequestCallback;
 import com.wg.daonile.model.user.impl.LoginInteractor;
 import com.wg.daonile.presenter.user.ILoginPresenter;
@@ -16,17 +17,17 @@ import com.wg.daonile.view.user.ILoginView;
  */
 public class LoginPresenter implements ILoginPresenter, ILoginRequestCallback {
 	private ILoginView mLoginView;
-	private LoginInteractor mLoginInteractor;
+	private ILoginInteractor mILoginInteractor;
 
 	public LoginPresenter(ILoginView loginView) {
 		mLoginView = loginView;
-		mLoginInteractor = new LoginInteractor();
+		mILoginInteractor = new LoginInteractor();
 	}
 
 	@Override
 	public void onLoginClickListener(String userKey, String password) {
 		mLoginView.showProgressDialog();
-		mLoginInteractor.onUserLoginListener(userKey, password, this);
+		mILoginInteractor.onUserLoginListener(userKey, password, this);
 	}
 
 	@Override

@@ -1,7 +1,6 @@
 package com.wg.daonile.model.user.impl;
 
-import android.text.TextUtils;
-
+import com.wg.common.util.lang.StringUtils;
 import com.wg.daonile.model.user.ILoginInteractor;
 import com.wg.daonile.model.user.ILoginRequestCallback;
 
@@ -20,9 +19,9 @@ public class LoginInteractor implements ILoginInteractor {
 			@Override
 			public void run() {
 				if (callback != null) {
-					if (TextUtils.isEmpty(userKey)) {
+					if (StringUtils.isBlank(userKey)) {
 						callback.onLoginFail("用户名不能为空");
-					} else if (TextUtils.isEmpty(password)) {
+					} else if (StringUtils.isBlank(password)) {
 						callback.onLoginFail("密码不能为空");
 					} else {
 						callback.onLoginSuccess();

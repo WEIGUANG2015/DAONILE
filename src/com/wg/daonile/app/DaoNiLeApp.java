@@ -2,11 +2,12 @@ package com.wg.daonile.app;
 
 import java.io.File;
 
-import com.wg.daonile.grim.utils.ConfigFile;
-import com.wg.daonile.grim.utils.CrashHandler;
-
 import android.app.Application;
 import android.os.Environment;
+
+import com.wg.common.util.cookie.PersistentCookieStore;
+import com.wg.common.util.io.CrashHandler;
+import com.wg.daonile.grim.utils.ConfigFile;
 
 /**
  * application
@@ -35,6 +36,24 @@ public class DaoNiLeApp extends Application {
 		initCrashHandler();
 		super.onCreate();
 	}
+	
+	private volatile static PersistentCookieStore persistentCookieStore;
+
+	/**
+	 * 实例化PersistentCookieStore
+	 * @return
+	 */
+	public static PersistentCookieStore getPersistentCookie() {
+		if (persistentCookieStore == null) {
+			synchronized (PersistentCookieStore.class) {
+				if (persistentCookieStore == null) {
+					persistentCookieStore = new PersistentCookieStore(sAppInstance);
+				}
+			}
+		}
+		return persistentCookieStore;
+	}
+	
 
 	private String appRootDir;// app的根文件夹
 	private String picPath;// 图片缓存文件夹
