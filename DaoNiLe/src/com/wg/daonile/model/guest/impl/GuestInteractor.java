@@ -12,7 +12,6 @@ import java.util.List;
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
 import org.apache.http.NameValuePair;
-import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpGet;
@@ -29,7 +28,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import android.os.Looper;
-import android.util.Log;
 
 import com.wg.common.util.cookie.PersistentCookieStore;
 import com.wg.common.util.security.Base64Utils;
@@ -37,6 +35,7 @@ import com.wg.common.util.security.RSAUtils;
 import com.wg.daonile.R;
 import com.wg.daonile.app.DaoNiLeApp;
 import com.wg.daonile.grim.constant.AppConstant;
+import com.wg.daonile.grim.utils.LogUtil;
 import com.wg.daonile.model.guest.IGuestInteractor;
 import com.wg.daonile.model.guest.IGuestRequestCallback;
 
@@ -135,7 +134,7 @@ public class GuestInteractor implements IGuestInteractor {
 							mPersistentCookieStore.addCookie(cookies.get(i));
 						}
 						String strResult = EntityUtils.toString(httpResponse.getEntity());
-						Log.i(">>>>", strResult);
+						LogUtil.i(strResult);
 						Looper.prepare();
 						callback.loginServerSuccess("");
 						Looper.loop();

@@ -5,7 +5,6 @@ import com.wg.daonile.model.guest.IGuestRequestCallback;
 import com.wg.daonile.model.guest.impl.GuestInteractor;
 import com.wg.daonile.presenter.guest.IGuestLoginPresenter;
 import com.wg.daonile.view.guest.IGuestView;
-import com.wg.daonile.view.user.ILoginView;
 
 /**
  * 服务器相关操作

@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
+
 /**
  * @author JUNLONG CHAN
  * @date 2015年3月31日
@@ -11,8 +12,6 @@ import android.util.TypedValue;
  * 
  */
 public class DensityUtil {
-
-	private final String TAG = DensityUtil.class.getSimpleName();
 
 	// 当前屏幕的densityDpi
 	private float dmDensityDpi = 0.0f;
@@ -55,16 +54,8 @@ public class DensityUtil {
 		return dmDensityDpi;
 	}
 
-	//
-	// public void setDmDensityDpi(float dmDensityDpi) {
-	// DensityUtil.dmDensityDpi = dmDensityDpi;
-	// }
-	//
-
 	public int dip2px(float dipValue) {
-
 		return (int) (dipValue * scale + 0.5f);
-
 	}
 
 	public int px2dip(float pxValue) {
@@ -73,10 +64,5 @@ public class DensityUtil {
 
 	public static int dpToPx(Resources res, int dp) {
 		return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp, res.getDisplayMetrics());
-	}
-
-	@Override
-	public String toString() {
-		return " dmDensityDpi:" + dmDensityDpi;
 	}
 }
